@@ -1,0 +1,17 @@
+[
+  {
+    "name":"Daliya",
+    "age":16,
+    "hobby": "volleyball, cooking"
+  },
+  {
+    "name":"Nurdin",
+    "age":19,
+    "hobby": "football, teacher"
+  },
+  {
+    "name":"Asema",
+    "age":15,
+    "hobby": "basketball "
+  }
+]

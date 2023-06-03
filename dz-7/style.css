@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: lightgray;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background: #194775;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.inner_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner_header ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.inner_header ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: #ffb4ce;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid black;
+    download_url: "https://picsum.photos/200/300.webp"
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/*.header__search input[type="text"],*/
+/*.header__search button[type="submit"] {*/
+/*    font-size: 16px;*/
+/*    padding: 8px;*/
+/*    border: none;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*.header__search input[type="text"] {*/
+/*    width: 250px;*/
+/*}*/
+
+/*.header__search button[type="submit"] {*/
+/*    background-color: #1a73e8;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*.header__search button[type="submit"]:hover {*/
+/*    background-color: #1354c2;*/
+/*}*/

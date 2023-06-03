@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 40px;
+    margin: 40px 600px;
+    background-color: #3535d4;
+    border: none;
+}
+
+.box {
+    margin: 40px 659px;
+}
